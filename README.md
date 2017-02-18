@@ -32,7 +32,8 @@ original ones as well!).
     "babel/object-curly-spacing": 1,
     "babel/no-await-in-loop": 1,
     "babel/flow-object-type": 1,
-    "babel/no-invalid-this": 1
+    "babel/no-invalid-this": 1,
+    "babel/semi": 1
   }
 }
 ```
@@ -50,6 +51,7 @@ The following rules are not in `eslint`, but are relevant only to syntax that is
 the current JavaScript standard or supported by `eslint`.
 
 - `babel/no-await-in-loop`: guard against awaiting async functions inside of a loop
+- `babel/semi`: Includes class properties
 
 #### Deprecated
 
